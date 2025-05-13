@@ -12,7 +12,7 @@ INPUTS.forEach((input) => {
 });
 
 RESULT.addEventListener("click", () => {
-  const result = DISPLAY.value;
+  const result = DISPLAY.value.replace(/x/g, "*").replace(/÷/g, "/");
   DISPLAY.value = "";
   DISPLAY.value = eval(result);
 });
