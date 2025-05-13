@@ -21,7 +21,7 @@ CLEAR.addEventListener("click", () => {
   DISPLAY.value = "";
 });
 
-// Version Plus robuse et sécuriser
+// Version Plus robuste et sécuriser
 
 // let firstNumber = "";
 // let currentOperator = "";
